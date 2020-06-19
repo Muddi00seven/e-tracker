@@ -4,7 +4,7 @@ export const Header = () => {
     return (
     <div>
         <h3>
-            Expense Tracker By Mudassir Khan
+            Expense Tracker By MUDASSIR KHAN
         </h3>
     </div>
     )
