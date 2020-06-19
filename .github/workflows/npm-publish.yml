@@ -46,9 +46,8 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
      #   yarn command  
-          cmd: install
-          
-          - name: installing surge
+          npm: install
+              - name: installing surge
             run: npm install -g surge
             
             - name: deploying on surge
